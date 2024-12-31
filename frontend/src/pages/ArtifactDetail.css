@@ -1,0 +1,75 @@
+.artifact-detail {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  align-items: flex-start; 
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+
+.artifact-info {
+  flex: 1; 
+  margin-right: 20px;
+  text-align: left; 
+}
+
+.artifact-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.artifact-rarity {
+  min-width: 10%;
+  min-height: 50%;
+}
+
+.artifact-rarity img {
+  min-width: 130%;
+  min-height: 50%;
+  margin-left: 20px;
+}
+
+.artifact-detail h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+  display: flex;
+  gap: 5px;
+}
+
+.artifact-detail .artifact-rarity img {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.artifact-detail p {
+  padding: 5px;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5; 
+  margin: 5px 0;
+  text-align: justify; 
+  word-wrap: break-word; 
+  word-break: break-word; 
+  max-width: 100%; 
+}
+
+.artifact-bonus {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+  text-align: center; 
+  font-style: italic; /* Optional: Makes the bonuses visually distinct */
+}
+

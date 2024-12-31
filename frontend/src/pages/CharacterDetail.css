@@ -1,0 +1,63 @@
+.character-detail {
+  display: flex;
+  flex-wrap: wrap; /* Izinkan elemen membungkus */
+  justify-content: space-between;
+  align-items: flex-start; /* Gunakan flex-start agar elemen disejajarkan dari atas */
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+
+.character-info {
+  flex: 1; /* Membuat bagian info mengambil sisa ruang */
+  margin-right: 20px;
+  text-align: left; /* Teks diratakan ke kiri */
+}
+
+.character-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.character-detail h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+  display: flex;
+  gap: 10px;
+}
+
+.character-detail .character-element img {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.character-detail p {
+  padding: 5px;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5; /* Tambahkan jarak antar baris */
+  margin: 5px 0;
+  text-align: justify; /* Teks diratakan untuk hasil yang rapi */
+  word-wrap: break-word; /* Pecah kata panjang jika melebihi batas */
+  word-break: break-word; /* Pecah kata panjang di titik mana pun */
+  max-width: 100%; /* Pastikan elemen p tidak lebih besar dari container */
+}
+
+.description {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+  text-align: center; 
+  font-style: italic; /* Optional: Makes the bonuses visually distinct */
+}
